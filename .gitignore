@@ -1,0 +1,90 @@
+# Maven / Gradle
+target/
+out/
+build/
+!**/src/main/**/target/       # 예외적으로 src/main 하위의 target 디렉토리 제외
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.pid
+logs/
+*.gz
+
+# Application
+*.war
+*.ear
+*.jar
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Configurations
+*.properties
+*.yml
+*.yaml
+*.env
+.env
+
+# Spring Boot Specific
+.spring-boot-devtools.properties
+spring-boot-loader/
+META-INF/
+
+# Database
+*.db
+*.sql
+*.sqlite
+
+# Dependency directories
+node_modules/
+.bower/
+.bundles/
+
+# OS-generated files
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*~
+
+# IDE-specific
+.vscode/
+*.code-workspace
+
+# Git-specific
+.gitignore
+.gitattributes
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Lombok cache
+.lombok/
+
+# Temporary files
+temp/
+tmp/
